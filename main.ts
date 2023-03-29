@@ -19,12 +19,12 @@ basic.forever(function () {
     100,
     0
     )
-    basic.pause(500)
+    basic.pause(100)
     hummingbird.setTriLED(
     TwoPort.One,
     0,
     0,
     100
     )
-    basic.pause(500)
+    basic.pause(100)
 })
