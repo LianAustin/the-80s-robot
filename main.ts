@@ -1,20 +1,7 @@
 hummingbird.startHummingbird()
-while (true) {
-    basic.showLeds(`
-        # . . . #
-        . # . # .
-        . . # . .
-        . # . # .
-        # . . . #
-        `)
-    basic.showLeds(`
-        . # # # .
-        # . # . #
-        # # . # #
-        # . # . #
-        . # # # .
-        `)
-}
 basic.forever(function () {
-	
+    hummingbird.setLED(ThreePort.One, 0)
+    basic.pause(500)
+    hummingbird.setLED(ThreePort.One, 0)
+    basic.pause(500)
 })
