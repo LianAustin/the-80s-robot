@@ -1,7 +1,7 @@
 
 > Open this page at [https://lianaustin.github.io/the-80s-robot/](https://lianaustin.github.io/the-80s-robot/)
 > 
-# **This has been discontinued as I'm using Snap instead**
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
